@@ -103,6 +103,7 @@ footer{
 #footerMedia ul{
     display: flex;
     margin-top: 4rem;
+    margin-right: 1.7rem;
 }
 #footerMedia ul li{
     list-style-type: none;
