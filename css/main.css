@@ -1,0 +1,194 @@
+/*NavBar*/
+#navBarTitles{
+    margin-left:1rem;
+}
+/*Fin NavBar*/
+
+/*Main*/
+body{
+    background-color: rgb(245, 245, 245);
+}
+#titleContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem;
+    margin-bottom: 13rem;
+}
+#titleHeader{
+    width:50%;
+}
+#titleHeader h1{
+    margin-bottom: 8rem;
+    margin-top: 8rem;
+    font-size: 1.5rem;
+}
+#titleContent h1 span{
+    color:green;
+}
+#titleContent img{
+    width: 12rem;
+    border-radius: 10rem;
+}
+#titleMedia ul{
+    display: flex;
+}
+#titleMedia ul li{
+    list-style-type: none;
+}
+#titleMedia ul li a{
+    text-decoration: none;
+}
+#titleMedia ul li a i{
+    color:black;
+    font-size: 1.5rem;
+}
+#sobreMiContent h3{
+    color: green;
+    margin-bottom: 2rem;
+}
+#sobreMiContent img{
+    width: 15rem;
+    border-radius: 1rem;
+}
+#sobreMiContent p {
+    width:80%;
+    margin-top: 1rem;
+}
+#sobreMiImgText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#portfolioContent h3{
+    color:green;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+}
+#portfolioImgText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#portfolioContent img{
+    width: 20rem;
+    border-radius: 0.5rem;
+}
+#portfolioImg{
+    background-color: rgb(214, 228, 213);
+    width: 22rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 1.5rem;
+}
+#portfolioText{
+    width:80%;
+    margin-top:2rem;
+    margin-bottom: 3rem;
+}
+.scaleImage:hover {
+    transform: scale(1.05);
+    transition: all .4s; 
+}
+#contacto h3{
+    color:green;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+}
+footer{
+    padding-bottom:4rem;
+    background-color: rgb(228, 228, 228);
+}
+#footerMedia ul{
+    display: flex;
+    margin-top: 4rem;
+}
+#footerMedia ul li{
+    list-style-type: none;
+}
+#footerMedia ul li a{
+    text-decoration: none;
+}
+#footerMedia ul li a i{
+    color:black;
+    font-size: 1.5rem;
+}
+.linea1{
+    background-color: green;
+    width:10%;
+    height:0.2rem;
+    margin:auto;
+}
+.linea2{
+    background-color: green;
+    width:8%;
+    height:0.15rem;
+    margin:auto;
+}
+.linea3{
+    background-color: green;
+    width:40%;
+    height:0.2rem;
+    margin:auto;
+}
+/*Fin Main*/
+
+@media only screen and (min-width: 680px){
+    #titleHeader{
+        width:40%;
+    }
+    #titleHeader h1{
+        font-size: 3rem;
+    }
+    #titleContent img{
+        width: 20rem;
+    }
+    #sobreMiContent img{
+        width: 20rem;
+    }
+    #sobreMiContent img{
+        width: 15rem;
+    }
+    #sobreMiContent p {
+        width:40%;
+        margin-left: 3rem;
+    }
+    #sobreMiImgText{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    #portfolioImgText{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    #portfolioText{
+        width:40%;
+        margin-left: 3rem;
+    }
+    #portfolioImg{
+        margin-bottom: 3rem;
+    }
+    .linea1{
+        background-color: green;
+        width:6%;
+        height:0.2rem;
+        margin:auto;
+    }
+    .linea2{
+        background-color: green;
+        width:5%;
+        height:0.15rem;
+        margin:auto;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    #navBarTitles{
+        display:flex;
+        justify-content: space-between;
+        margin-right:2rem;
+    }
+}
