@@ -32,16 +32,18 @@ body{
 }
 #titleMedia ul{
     display: flex;
+    padding-left: 0rem;
 }
 #titleMedia ul li{
     list-style-type: none;
+    margin-right: 1rem;
 }
 #titleMedia ul li a{
     text-decoration: none;
 }
 #titleMedia ul li a i{
     color:black;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 #sobreMiContent h3{
     color: green;
