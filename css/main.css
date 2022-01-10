@@ -109,6 +109,7 @@ footer{
 }
 #footerMedia ul li{
     list-style-type: none;
+    margin-right: 0.5rem;
 }
 #footerMedia ul li a{
     text-decoration: none;
